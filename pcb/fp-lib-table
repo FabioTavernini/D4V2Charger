@@ -1,0 +1,8 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "KiCADv6")(type "KiCad")(uri "/home/ftave/Documents/kicad/Libraries/MBR140SFT1G/KiCADv6.pretty")(options "")(descr ""))
+  (lib (name "footprints")(type "KiCad")(uri "/home/ftave/Documents/kicad/Libraries/SS14/KiCADv6/footprints.pretty")(options "")(descr ""))
+  (lib (name "MF-MSMF050-2")(type "KiCad")(uri "/home/ftave/Documents/kicad/Libraries/MF-MSMF050-2.pretty")(options "")(descr ""))
+  (lib (name "Littlefuse_0406L")(type "KiCad")(uri "/home/ftave/Documents/kicad/Libraries/Littlefuse_0406L.pretty")(options "")(descr ""))
+  (lib (name "PMEG1020EJ_115")(type "KiCad")(uri "/home/ftave/Documents/kicad/Libraries/PMEG1020EJ_115.pretty")(options "")(descr ""))
+)

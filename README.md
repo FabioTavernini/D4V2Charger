@@ -1,7 +1,7 @@
 # D4v2Charger
 
 A work-in-progress proof of concept for adding built-in USB-C charging to the
-[Emisar D4v2](https://intl-outdoor.com/emisar-d4v2.html) flashlight, using a
+[Emisar D4v2](https://intl-outdoor.com/emisar-d4v2-high-power-led-flashlight.html) flashlight, using a
 pogo-pin connector in place of removing the cell to charge it externally.
 
 ## Status
@@ -41,3 +41,8 @@ change.
 This is a hobbyist mod to a battery-powered lighting device. Modifying
 charging circuitry and battery contacts carries fire/safety risk if done
 incorrectly. Use at your own risk.
+
+## License
+
+Licensed under the [CERN Open Hardware Licence Version 2 - Strongly
+Reciprocal](LICENSE) (CERN-OHL-S-2.0).
