@@ -2610,7 +2610,7 @@
 		(uuid "937444a9-1789-4e96-aa7a-d7a532813a81")
 		(at 138.5 97.5)
 		(property "Reference" "F1"
-			(at -1 0 0)
+			(at -1.5 0 0)
 			(layer "F.SilkS")
 			(uuid "b69122ce-eae6-4e00-a0fb-f6892d6b52d4")
 			(effects
@@ -2761,6 +2761,17 @@
 			(uuid "f3e558b8-27ac-4c68-9ae3-e54a1f0008a6")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/Littlefuse_0406L_0402L100SLKR_0402L100SL/0402L100SL.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
 	)
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "F.Cu")
