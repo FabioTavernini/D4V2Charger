@@ -3054,7 +3054,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "560Ω"
+		(property "Value" "300Ω"
 			(at 133.604 104.648 0)
 			(effects
 				(font
