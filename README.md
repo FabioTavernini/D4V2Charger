@@ -4,6 +4,18 @@ A work-in-progress proof of concept for adding built-in USB-C charging to the
 [Emisar D4v2](https://intl-outdoor.com/emisar-d4v2-high-power-led-flashlight.html) flashlight, using a
 pogo-pin connector in place of removing the cell to charge it externally.
 
+The charger PCB is a disc that sits sandwiched between the flashlight body
+tube and the head, in the same joint where they normally screw together. A
+spring contact on the board presses against the cell's positive terminal,
+while the pogo-pin connector protrudes to the side to bring in USB-C power
+through the body wall.
+
+![SandwichBoard](./docs/sandwich.png)
+*Cutaway render: cell (green) above, charger PCB sandwiched at the
+body/head joint below, with the spring contact touching the cell's positive
+terminal and the pogo-pin connector (black) sticking out to the side.*
+
+
 ## Status
 
 Early prototype / proof of concept. Nothing here has been validated in a
@@ -12,14 +24,18 @@ change.
 
 ## How it works
 
-- A small PCB sits inside the flashlight and charges the cell via a
+- A small ring-shaped PCB is sandwiched between the flashlight body and
+  head, and charges the cell via a
   [TI BQ25185](https://www.ti.com/product/BQ25185) single-cell Li-ion linear
   charger (with integrated power path).
+- A spring contact on the board makes the positive connection to the cell,
+  so no wiring or modification of the cell itself is needed.
 - Power comes in through a pair of spring-loaded pogo pins rather than a
   connector mounted directly on the PCB, so no permanent cutout is needed
   for a USB-C receptacle on the board itself.
 - A custom pogo-pin connector part and a modified flashlight body/case were
-  designed to accommodate the charging contacts.
+  designed to accommodate the charging contacts and let the PCB sandwich
+  fit at the body/head joint.
 
 ## Repo contents
 
