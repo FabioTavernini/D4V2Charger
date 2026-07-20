@@ -10,7 +10,7 @@ spring contact on the board presses against the cell's positive terminal,
 while the pogo-pin connector protrudes to the side to bring in USB-C power
 through the body wall.
 
-![SandwichBoard](./docs/sandwich.png)
+![SandwichBoard](./docs/images/sandwich.png)
 *Cutaway render: cell (green) above, charger PCB sandwiched at the
 body/head joint below, with the spring contact touching the cell's positive
 terminal and the pogo-pin connector (black) sticking out to the side.*
