@@ -132,6 +132,89 @@
 	(net 12 "Net-(D3-A)")
 	(net 13 "Net-(J1-Pin_1)")
 	(net 14 "Net-(U1-SYS)")
+	(footprint "Custom_TestPoints:TestPoint_Pad_D6.0mm_spring"
+		(layer "F.Cu")
+		(uuid "06428466-5448-4a35-bd66-b1e986b6056d")
+		(at 143.5 93)
+		(property "Reference" "TP1"
+			(at 0 -4.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "39e7058a-6bfc-49da-8370-401e7abf8f4d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "Flashlight_+"
+			(at 0 6 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d821440e-756c-40ed-b2d0-2c64965a1232")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "149911bd-d71e-43a9-99e1-107236d8b1b7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c49ad167-fd21-4d44-b828-91d0bc0f2c06")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Pin* Test*")
+		(path "/36ed454d-29fc-4af1-b718-e2df31fccf23")
+		(sheetname "/")
+		(sheetfile "D4v2Charger.kicad_sch")
+		(attr exclude_from_pos_files)
+		(pad "1" smd circle
+			(at 0 0)
+			(size 6 6)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 6 "Net-(BT1-+)")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "69f8da96-db3d-41ee-b619-d139a59f8027")
+		)
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/TestPad_SpringModel/Spring_6mm-Body.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
+	)
 	(footprint "Package_DFN_QFN:Texas_DLH0010A_WSON-10-1EP_2.2x2mm_P0.4mm_EP0.9x1.5mm"
 		(layer "F.Cu")
 		(uuid "127b2abb-a42e-4a3b-9a99-419f13a5c1f9")
@@ -2202,89 +2285,6 @@
 			)
 			(rotate
 				(xyz 0 0 0)
-			)
-		)
-	)
-	(footprint "Custom_TestPoints:TestPoint_Pad_D6.0mm_spring"
-		(layer "F.Cu")
-		(uuid "7ac782db-2731-4187-9d2f-3a57a5fc6020")
-		(at 143.5 93)
-		(property "Reference" "TP1"
-			(at 0 -4.5 0)
-			(unlocked yes)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "34f047c2-2e5f-43e7-aee8-a919f2226a4c")
-			(effects
-				(font
-					(size 0.5 0.5)
-					(thickness 0.1)
-				)
-			)
-		)
-		(property "Value" "Flashlight_+"
-			(at 0 6 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ed93abf1-c8a3-487b-ae49-682ce543bbeb")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ee832039-2ca5-4395-b67b-eec625dac90a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "0f56ea08-6c93-40cc-bf9a-382af6c2ad34")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "Pin* Test*")
-		(path "/36ed454d-29fc-4af1-b718-e2df31fccf23")
-		(sheetname "/")
-		(sheetfile "D4v2Charger.kicad_sch")
-		(attr exclude_from_pos_files)
-		(pad "1" smd circle
-			(at 0 0)
-			(size 6 6)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 6 "Net-(BT1-+)")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "4621cccf-b8e0-49a1-bcc7-12fe70ae3b9f")
-		)
-		(embedded_fonts no)
-		(model "${KIPRJMOD}/TestPad_SpringModel/Spring_6mm-Body.step"
-			(offset
-				(xyz 0 0 0.5)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -0 -0 -0)
 			)
 		)
 	)

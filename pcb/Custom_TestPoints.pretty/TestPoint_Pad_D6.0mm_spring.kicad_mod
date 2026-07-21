@@ -75,7 +75,7 @@
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/TestPad_SpringModel/Spring_6mm-Body.step"
 		(offset
-			(xyz 0 0 0.5)
+			(xyz 0 0 0)
 		)
 		(scale
 			(xyz 1 1 1)
