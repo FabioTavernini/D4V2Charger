@@ -6,4 +6,5 @@
   (lib (name "Littlefuse_0406L")(type "KiCad")(uri "/home/ftave/Documents/kicad/Libraries/Littlefuse_0406L.pretty")(options "")(descr ""))
   (lib (name "PMEG1020EJ_115")(type "KiCad")(uri "/home/ftave/Documents/kicad/Libraries/PMEG1020EJ_115.pretty")(options "")(descr ""))
   (lib (name "Custom_TestPoints")(type "KiCad")(uri "${KIPRJMOD}/Custom_TestPoints.pretty")(options "")(descr ""))
+  (lib (name "NTCG103JF103FT1")(type "KiCad")(uri "${KIPRJMOD}/NTCG103JF103FT1/NTCG103JF103FT1.pretty")(options "")(descr ""))
 )

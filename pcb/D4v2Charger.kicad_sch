@@ -1619,6 +1619,143 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:Thermistor"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TH"
+				(at 2.54 1.27 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Thermistor"
+				(at -2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Temperature dependent resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res thermistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Thermistor_0_1"
+				(polyline
+					(pts
+						(xy -1.905 3.175) (xy -1.905 1.905) (xy 1.905 -1.905) (xy 1.905 -3.175) (xy 1.905 -3.175)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.016 2.54)
+					(end 1.016 -2.54)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Thermistor_1_1"
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -1881,16 +2018,16 @@
 		(uuid "2bb97c47-88d9-44b9-97b8-946fc3a222c3")
 	)
 	(junction
+		(at 201.93 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "481f7250-1fb6-45b9-9c15-64c1e7553d99")
+	)
+	(junction
 		(at 124.46 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5d02fd56-898a-4dfc-83a0-1b6d3cb61bff")
-	)
-	(junction
-		(at 201.93 83.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "77e9f246-a416-4274-b526-281014962e3e")
 	)
 	(junction
 		(at 96.52 80.01)
@@ -1930,6 +2067,16 @@
 	)
 	(wire
 		(pts
+			(xy 168.91 83.82) (xy 173.99 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00f7d44c-e941-4f13-8edb-09b9e39d83c6")
+	)
+	(wire
+		(pts
 			(xy 93.98 121.92) (xy 96.52 121.92)
 		)
 		(stroke
@@ -1947,6 +2094,16 @@
 			(type default)
 		)
 		(uuid "0629320a-e9fd-4dbf-bfb8-0405b4ff0c47")
+	)
+	(wire
+		(pts
+			(xy 201.93 83.82) (xy 201.93 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10ddc3ff-826a-431f-9ca0-df01a0d0f348")
 	)
 	(wire
 		(pts
@@ -1987,16 +2144,6 @@
 			(type default)
 		)
 		(uuid "2560da50-ec52-4063-8b1c-0b5931f3fdd3")
-	)
-	(wire
-		(pts
-			(xy 168.91 83.82) (xy 201.93 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2c872726-0e19-4bf1-9d0c-75976fcf3ec9")
 	)
 	(wire
 		(pts
@@ -2067,6 +2214,16 @@
 			(type default)
 		)
 		(uuid "49b77a77-b6eb-4afb-a555-19bd6b2b2722")
+	)
+	(wire
+		(pts
+			(xy 168.91 76.2) (xy 168.91 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c68be49-3b69-45ff-afb6-607fc84c7862")
 	)
 	(wire
 		(pts
@@ -2210,16 +2367,6 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 86.36) (xy 201.93 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a46084e8-dd71-4925-869b-517e1d8fe22b")
-	)
-	(wire
-		(pts
 			(xy 125.73 121.92) (xy 132.08 121.92)
 		)
 		(stroke
@@ -2287,6 +2434,16 @@
 			(type default)
 		)
 		(uuid "d3dc56b1-1626-45da-899c-29ba92bedbfd")
+	)
+	(wire
+		(pts
+			(xy 184.15 83.82) (xy 201.93 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dddbe6f1-9d06-4d39-853c-9bc7228a471b")
 	)
 	(wire
 		(pts
@@ -2752,6 +2909,73 @@
 			(project "D4v2Charger"
 				(path "/88573ec5-2eb3-489f-b9be-0922d5590a50"
 					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Thermistor")
+		(at 179.07 83.82 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6a96f113-f507-4461-82b3-1fb757a69d05")
+		(property "Reference" "TH1"
+			(at 184.404 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Thermistor"
+			(at 174.498 81.788 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "NTCG103JF103FT1:THERM_NTCG103JF103FT1"
+			(at 179.07 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 179.07 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Temperature dependent resistor"
+			(at 179.07 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6c44abf2-7b88-4d25-b204-4782dd59e361")
+		)
+		(pin "2"
+			(uuid "c6474815-f8bd-4c0b-8236-7370a5f07e25")
+		)
+		(instances
+			(project ""
+				(path "/88573ec5-2eb3-489f-b9be-0922d5590a50"
+					(reference "TH1")
 					(unit 1)
 				)
 			)
@@ -3578,75 +3802,6 @@
 			(project "D4v2Charger"
 				(path "/88573ec5-2eb3-489f-b9be-0922d5590a50"
 					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 168.91 80.01 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c305f3d5-c826-40d8-957a-53b18dc131e7")
-		(property "Reference" "R8"
-			(at 170.434 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10kΩ"
-			(at 170.434 81.788 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 167.132 80.01 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 168.91 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 168.91 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "aeea6e42-6a29-4ffd-9b07-921f81de4d8b")
-		)
-		(pin "2"
-			(uuid "daa597e4-019b-4371-a44c-bec4c0b2f267")
-		)
-		(instances
-			(project "D4v2Charger"
-				(path "/88573ec5-2eb3-489f-b9be-0922d5590a50"
-					(reference "R8")
 					(unit 1)
 				)
 			)
