@@ -222,7 +222,7 @@
 		(descr "Texas DLH0010A WSON, 10 Pin (https://www.ti.com/lit/gpn/BQ25185), generated with kicad-footprint-generator ipc_noLead_generator.py")
 		(tags "Texas WSON NoLead")
 		(property "Reference" "U1"
-			(at 0 -2 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "d0150960-8fdf-4498-b79a-e750ddf88d81")
 			(effects
@@ -780,7 +780,7 @@
 		(uuid "19398623-b60d-4f50-8191-f0b4e49ae9ec")
 		(at 138.5 96)
 		(property "Reference" "D3"
-			(at 2 0 0)
+			(at -2 -0.5 0)
 			(layer "F.SilkS")
 			(uuid "3d7b761c-42fc-48f8-baf4-d8d209bdaab0")
 			(effects
@@ -3069,7 +3069,7 @@
 		(descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x02 2.54mm single row")
 		(property "Reference" "J1"
-			(at 0 4.774999 180)
+			(at 0.14 4.875 180)
 			(layer "F.SilkS")
 			(uuid "4b35c2fe-5e18-4f3d-8a59-dbf9dc789986")
 			(effects
@@ -3698,6 +3698,28 @@
 			)
 		)
 	)
+	(gr_arc
+		(start 137 98.5)
+		(mid 143.5 84.485307)
+		(end 150 98.5)
+		(stroke
+			(width 1.4)
+			(type solid)
+		)
+		(layer "F.Mask")
+		(uuid "1e4ec0c2-ddd3-44d5-81e7-b2f9c3759d4b")
+	)
+	(gr_arc
+		(start 137 98.5)
+		(mid 143.5 84.485307)
+		(end 150 98.5)
+		(stroke
+			(width 1.4)
+			(type solid)
+		)
+		(layer "B.Mask")
+		(uuid "7831dfa6-82c3-4236-ad44-283734c69228")
+	)
 	(gr_poly
 		(pts
 			(xy 147.666095 91.830953) (xy 147.667177 91.816776) (xy 147.668958 91.802802) (xy 147.67142 91.789051)
@@ -4085,6 +4107,36 @@
 		(layer "F.Cu")
 		(net 1)
 		(uuid "fccbdcc0-d69a-4403-b4a9-63ebe98f4b1f")
+	)
+	(via
+		(at 150.93 95.49)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(tenting none)
+		(net 1)
+		(uuid "19fe4930-df4d-472b-bb04-5ae34e0811fb")
+	)
+	(via
+		(at 135.73 93.89)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(tenting none)
+		(net 1)
+		(uuid "5ea77cfb-9aab-461d-8f59-438db2cb6d76")
+	)
+	(via
+		(at 143.52 85.19)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(tenting none)
+		(net 1)
+		(uuid "81ec7064-074e-4a86-ac35-867c75fcfa9d")
 	)
 	(segment
 		(start 146.640176 86.353127)
