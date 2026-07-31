@@ -52,6 +52,10 @@ body/head threaded joint (`case/Thread_tests/ThreadTester.FCStd`):
   connector housing without bending them
 - Drill/reamer sized to the pogo-pin housing bore, if machining the body
   directly rather than printing a new part
+- Flush cutters + fine file/grinding tool to cut and grind down the
+  pogo-pin connector's solder legs flush once seated, plus Kapton tape
+  to cover them afterward — the body/case metal sits close around the
+  connector, so exposed/proud legs can short against it
 
 ## Final assembly
 
