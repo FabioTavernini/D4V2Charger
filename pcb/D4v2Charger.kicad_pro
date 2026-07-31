@@ -38,8 +38,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 0.64,
-          "width": 0.54
+          "height": 0.62,
+          "width": 0.56
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -52,12 +52,7 @@
         }
       },
       "diff_pair_dimensions": [],
-      "drc_exclusions": [
-        [
-          "via_dangling|143500000|93000000|9390ae68-b308-42a7-b843-7fca2b8c3ff9|00000000-0000-0000-0000-000000000000",
-          "BT + terminal"
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
