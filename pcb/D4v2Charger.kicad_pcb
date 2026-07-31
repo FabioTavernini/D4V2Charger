@@ -4110,7 +4110,7 @@
 	)
 	(via
 		(at 150.93 95.49)
-		(size 0.6)
+		(size 0.5)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(free yes)
@@ -4120,7 +4120,7 @@
 	)
 	(via
 		(at 135.73 93.89)
-		(size 0.6)
+		(size 0.5)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(free yes)
@@ -4130,7 +4130,7 @@
 	)
 	(via
 		(at 143.52 85.19)
-		(size 0.6)
+		(size 0.5)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(free yes)
