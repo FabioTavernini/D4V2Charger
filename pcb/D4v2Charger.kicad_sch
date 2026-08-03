@@ -2069,7 +2069,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 121.92) (xy 162.56 121.92)
+			(xy 153.67 110.49) (xy 162.56 110.49)
 		)
 		(stroke
 			(width 0)
@@ -2089,7 +2089,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 121.92) (xy 177.8 121.92)
+			(xy 170.18 110.49) (xy 177.8 110.49)
 		)
 		(stroke
 			(width 0)
@@ -2289,7 +2289,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 121.92) (xy 191.77 129.54)
+			(xy 191.77 110.49) (xy 191.77 118.11)
 		)
 		(stroke
 			(width 0)
@@ -2309,7 +2309,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 121.92) (xy 223.52 121.92)
+			(xy 194.31 110.49) (xy 223.52 110.49)
 		)
 		(stroke
 			(width 0)
@@ -2379,7 +2379,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 121.92) (xy 191.77 121.92)
+			(xy 185.42 110.49) (xy 191.77 110.49)
 		)
 		(stroke
 			(width 0)
@@ -2489,7 +2489,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 121.92) (xy 194.31 129.54)
+			(xy 194.31 110.49) (xy 194.31 118.11)
 		)
 		(stroke
 			(width 0)
@@ -3291,7 +3291,7 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 153.67 121.92 0)
+		(at 153.67 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3299,7 +3299,7 @@
 		(dnp no)
 		(uuid "89ee03cd-62a5-4271-931c-18d89c693efa")
 		(property "Reference" "#PWR02"
-			(at 153.67 125.73 0)
+			(at 153.67 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3308,7 +3308,7 @@
 			)
 		)
 		(property "Value" "VBUS"
-			(at 153.162 124.206 0)
+			(at 153.162 112.776 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3316,7 +3316,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 153.67 121.92 0)
+			(at 153.67 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3325,7 +3325,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 153.67 121.92 0)
+			(at 153.67 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3334,7 +3334,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 153.67 121.92 0)
+			(at 153.67 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3559,7 +3559,7 @@
 	)
 	(symbol
 		(lib_id "Device:Polyfuse")
-		(at 181.61 121.92 90)
+		(at 181.61 110.49 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3568,7 +3568,7 @@
 		(fields_autoplaced yes)
 		(uuid "91cd4f30-017e-454f-8592-5b43ddf16d79")
 		(property "Reference" "F1"
-			(at 181.61 115.57 90)
+			(at 181.61 104.14 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3576,7 +3576,7 @@
 			)
 		)
 		(property "Value" "1A hold, 2A trip"
-			(at 181.61 118.11 90)
+			(at 181.61 106.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3584,7 +3584,7 @@
 			)
 		)
 		(property "Footprint" "Littlefuse_0406L:0402L100SLKR"
-			(at 186.69 120.65 0)
+			(at 186.69 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3594,7 +3594,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 181.61 121.92 0)
+			(at 181.61 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3603,7 +3603,7 @@
 			)
 		)
 		(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
-			(at 181.61 121.92 0)
+			(at 181.61 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3763,7 +3763,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 223.52 121.92 0)
+		(at 223.52 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3772,7 +3772,7 @@
 		(fields_autoplaced yes)
 		(uuid "a7d99038-8dc1-4f42-8a62-ea0c48eb568d")
 		(property "Reference" "#PWR01"
-			(at 223.52 128.27 0)
+			(at 223.52 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3781,7 +3781,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 223.52 127 0)
+			(at 223.52 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3789,7 +3789,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 223.52 121.92 0)
+			(at 223.52 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3798,7 +3798,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 223.52 121.92 0)
+			(at 223.52 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3807,7 +3807,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 223.52 121.92 0)
+			(at 223.52 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3898,7 +3898,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 191.77 134.62 90)
+		(at 191.77 123.19 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3906,7 +3906,7 @@
 		(dnp no)
 		(uuid "c7ecfdd3-bcef-4623-a881-c6e9531eb2f1")
 		(property "Reference" "J1"
-			(at 198.374 134.112 90)
+			(at 198.374 122.682 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3915,7 +3915,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
-			(at 212.344 131.572 90)
+			(at 212.344 120.142 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3924,7 +3924,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 191.77 134.62 0)
+			(at 191.77 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3933,7 +3933,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 191.77 134.62 0)
+			(at 191.77 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3942,7 +3942,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 191.77 134.62 0)
+			(at 191.77 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4213,7 +4213,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Schottky")
-		(at 166.37 121.92 0)
+		(at 166.37 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4222,7 +4222,7 @@
 		(fields_autoplaced yes)
 		(uuid "f4f537fe-d3a5-4818-b8cc-e902c2cdcddb")
 		(property "Reference" "D3"
-			(at 166.0525 115.57 0)
+			(at 166.0525 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4230,7 +4230,7 @@
 			)
 		)
 		(property "Value" "60V, 1A cont."
-			(at 166.0525 118.11 0)
+			(at 166.0525 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4238,7 +4238,7 @@
 			)
 		)
 		(property "Footprint" "PMEG1020EJ_115:DIO_PMEG6010CEJF"
-			(at 166.37 121.92 0)
+			(at 166.37 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4247,7 +4247,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 166.37 121.92 0)
+			(at 166.37 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4256,7 +4256,7 @@
 			)
 		)
 		(property "Description" "Schottky diode"
-			(at 166.37 121.92 0)
+			(at 166.37 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
