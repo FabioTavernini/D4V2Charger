@@ -10,4 +10,4 @@
 9;"R7";"R_0402_1005Metric";1;"390Ω";;;
 10;"F1";"0402L100SLKR";1;"1A hold, 2A trip";;;
 11;"J1";"PinHeader_1x02_P2.54mm_Vertical";1;"Conn_01x02_Pin";;;
-12;"R8";"R_0402_1005Metric";1;"10kΩ";;;
+12;"TH1";"THERM_NTCG103JF103FT1";1;"Thermistor";;;
