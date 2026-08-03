@@ -3711,6 +3711,17 @@
 		(layer "F.Mask")
 		(uuid "03b9d353-88e9-4c8a-83d4-d1bdad8bb756")
 	)
+	(gr_circle
+		(center 176.149 94.488)
+		(end 176.649 94.488)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Mask")
+		(uuid "a663475e-5aec-40bf-8f5d-b1c96901e030")
+	)
 	(gr_arc
 		(start 167.64 98.424998)
 		(mid 171.45 78.641259)
