@@ -11,9 +11,16 @@ while the pogo-pin connector protrudes to the side to bring in USB-C power
 through the body wall.
 
 ![SandwichBoard](./docs/images/sandwich.png)
+
 *Cutaway render: cell (green) above, charger PCB sandwiched at the
 body/head joint below, with the spring contact touching the cell's positive
 terminal and the pogo-pin connector (black) sticking out to the side.*
+
+
+![Schematics](./docs/images/schematic.png)
+
+*Screenshot of Schematic (May be out of date lol)*
+
 
 
 ## Status
